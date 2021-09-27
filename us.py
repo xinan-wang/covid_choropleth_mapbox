@@ -25,5 +25,5 @@ fig = px.choropleth_mapbox(df,geojson=counties,locations = 'fips',color='cases',
                           )
 fig.update_layout(margin={'r':0,'t':0,'l':0,'b':0})
 
-fig.write_html('county_recent.html')
+fig.write_html('county_recent.html') # save figure as html file
 
